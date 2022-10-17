@@ -1,1 +1,1 @@
-Sitemap: https://mmistakes.github.io/intro2sd-template/sitemap.xml
+Sitemap: https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/sitemap.xml
