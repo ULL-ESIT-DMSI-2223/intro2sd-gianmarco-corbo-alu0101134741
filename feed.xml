@@ -1,7 +1,308 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/" rel="alternate" type="text/html" /><updated>2022-10-24T06:23:26-04:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/feed.xml</id><title type="html">Introducción a Desarrollo y mantenimiento de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Michael Rose</name></author><entry><title type="html">Post: Future Date</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00-05:00</published><updated>9999-12-31T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date/">&lt;p&gt;This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--future&lt;/code&gt; flag it should appear.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Informe</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-04:00</published><updated>2022-10-01T00:00:00-04:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/">&lt;p&gt;Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/" rel="alternate" type="text/html" /><updated>2022-10-30T18:21:40+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/feed.xml</id><title type="html">Introducción a Desarrollo y mantenimiento de Sistemas</title><subtitle>En esta página se practicarán varios ejercicios para la creación de páginas web y se escribirá un informe en uno de los posts.</subtitle><author><name>Gianmarco Corbo</name></author><entry><title type="html">Post: Future Date</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00+00:00</published><updated>9999-12-31T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post/post-future-date/">&lt;p&gt;This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--future&lt;/code&gt; flag it should appear.&lt;/p&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Informe</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00+00:00</published><updated>2022-10-01T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/">&lt;h1 id=&quot;informe-práctica-introduction-to-systems-development&quot;&gt;Informe práctica Introduction to Systems Development&lt;/h1&gt;
+
+&lt;h2 id=&quot;reconfigurado-_configyml&quot;&gt;Reconfigurado _config.yml&lt;/h2&gt;
+
+&lt;p&gt;Editar el archivo &lt;em&gt;_config.yml&lt;/em&gt; permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web.
+En este caso, se han modificado los siguientes parametros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;minimal_mistakes_skin&lt;/strong&gt;: Se ha cambiado la skin a &lt;em&gt;aqua&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;locale&lt;/strong&gt;: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a &lt;em&gt;es-ES&lt;/em&gt; para que resulte el idioma español de España.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt;: El titulo de la página. Se ha cambiado a &lt;em&gt;Introducción a Desarrollo y mantenimiento de Sistemas&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;subtitle&lt;/strong&gt;: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a &lt;em&gt;Gianmarco Corbo&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;description&lt;/strong&gt;: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;baseurl&lt;/strong&gt;: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;author&lt;/strong&gt;: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;*name&lt;/strong&gt;: Referencia al ancla &lt;em&gt;name&lt;/em&gt; que se modificó anteriormente.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;avatar&lt;/strong&gt;: Ruta para el archivo de la imagen del autor.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;bio&lt;/strong&gt;: Una descripción del autor. Se ha modificado a &lt;em&gt;Estudiante de la Universidad de La Laguna&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;location&lt;/strong&gt;: Lugar de residencia del autor. Modificado a &lt;em&gt;Islas Canarias&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;links&lt;/strong&gt;: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;footer&lt;/strong&gt;:  Representa el pie de página.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;links&lt;/strong&gt;: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/intro2sd-gianmarco-corbo-alu0101134741/assets/images/CapturaConfig1.png&quot; alt=&quot;CapturaConfig1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/intro2sd-gianmarco-corbo-alu0101134741/assets/images/CapturaConfig2.png&quot; alt=&quot;CapturaConfig2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/intro2sd-gianmarco-corbo-alu0101134741/assets/images/CapturaConfig3.png&quot; alt=&quot;CapturaConfig3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2022-10-30-182140-0000&quot;&gt;2022-10-30 18:21:40 +0000&lt;/h2&gt;
+
+&lt;h2 id=&quot;ejercicio-escribir-los-titulos-de-los-posts-en-una-lista&quot;&gt;Ejercicio: escribir los titulos de los posts en una lista&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Future Date&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Informe&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Exclude Post from Search Index&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Video&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gemified Theme – Beta Release&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gemified Theme – Alpha Release&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Welcome to Jekyll!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Syntax Highlighting&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Another Post with Images&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: HTML Tags and Formatting&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Image Alignment&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Text Alignment&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Title with Special — Characters&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Title &lt;em&gt;with&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markup: Text Readability Test&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wide Single Layout Page&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Sidebar with Navigation List&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Sidebar Custom&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: More Tag&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image Overlay&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image Overlay with Custom Tagline&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Overlay with Background Fill&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image (Vertical)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image and Text Readability&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image (Horizontal)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Header Image (External URL)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Author Sidebar Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Author Override&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Excerpt (Generated)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Excerpt (Defined)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Code Excerpt (Generated)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post with Sticky Table of Contents&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post with Table of Contents&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post with Nested Table of Contents&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post with Nested Table of Contents via Helper&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Social Sharing Links Enabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Social Sharing Links Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Related Posts Enabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Related Posts Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Read Time Enabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Read Time Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post Date Enabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Post Date Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Comments Enabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Layout: Comments Disabled&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Twitter Embed&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Gallery&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Image (Caption)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Image (Linked with Caption)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Teaser Image with OpenGraph Override&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Image (Standard)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Image (with Link)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Overlay Image with OpenGraph Override&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Header Image with OpenGraph Override&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Video (YouTube)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Link&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Quote&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Notice&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Chat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Standard&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post: Modified Date&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Antidisestablishmentarianism&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case: Post with multiline excerpt&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case No Yaml Title&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case: No Body Content&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case: Many Categories&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case: Many Tags&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edge Case: Nested and Mixed Lists&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ejercicio-de-for&quot;&gt;Ejercicio de for&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Juan Perez saca la nota 7&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pedro Gonzalez saca la nota 9&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.&lt;/p&gt;
 
 &lt;p&gt;The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
-Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-05:00</published><updated>2018-02-19T08:06:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.&lt;/p&gt;
+
+&lt;p&gt;El titulo de esta página es: Informe&lt;/p&gt;
+
+&lt;p&gt;Esta página tiene una variable tags que es una lista con estos valores:&lt;/p&gt;
+
+&lt;p&gt;Post Formatsreadabilitystandard&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Post Formats&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;readability&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;standard&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-walking-dead&quot;&gt;The Walking Dead&lt;/h2&gt;
+
+&lt;p&gt;En la temporada 1 de The Walking Dead vimos muchos colores:&lt;/p&gt;
+
+&lt;h3 id=&quot;sección-de-colores&quot;&gt;Sección de colores&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Guillermo&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jorge&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Patricia&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">Informe práctica Introduction to Systems Development Reconfigurado _config.yml Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros: minimal_mistakes_skin: Se ha cambiado la skin a aqua. locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España. title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas. subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página. name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo. description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página. baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica. author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros: *name: Referencia al ancla name que se modificó anteriormente. avatar: Ruta para el archivo de la imagen del autor. bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna. location: Lugar de residencia del autor. Modificado a Islas Canarias. links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui . footer: Representa el pie de página. links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui . 2022-10-30 18:21:40 +0000 Ejercicio: escribir los titulos de los posts en una lista Post: Future Date Informe Exclude Post from Search Index Layout: Header Video Gemified Theme – Beta Release Gemified Theme – Alpha Release Welcome to Jekyll! Markup: Syntax Highlighting Markup: Another Post with Images Markup: HTML Tags and Formatting Markup: Image Alignment Markup: Text Alignment Markup: Title with Special — Characters Markup: Title with Markdown Markup: Text Readability Test Wide Single Layout Page Layout: Sidebar with Navigation List Layout: Sidebar Custom Layout: More Tag Layout: Header Image Overlay Layout: Header Image Overlay with Custom Tagline Layout: Header Overlay with Background Fill Layout: Header Image (Vertical) Layout: Header Image and Text Readability Layout: Header Image (Horizontal) Layout: Header Image (External URL) Layout: Author Sidebar Disabled Layout: Author Override Layout: Excerpt (Generated) Layout: Excerpt (Defined) Layout: Code Excerpt (Generated) Layout: Post with Sticky Table of Contents Layout: Post with Table of Contents Layout: Post with Nested Table of Contents Layout: Post with Nested Table of Contents via Helper Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled Layout: Social Sharing Links Enabled Layout: Social Sharing Links Disabled Layout: Related Posts Enabled Layout: Related Posts Disabled Layout: Read Time Enabled Layout: Read Time Disabled Layout: Post Date Enabled Layout: Post Date Disabled Layout: Comments Enabled Layout: Comments Disabled Post: Twitter Embed Post: Gallery Post: Image (Caption) Post: Image (Linked with Caption) Post: Teaser Image with OpenGraph Override Post: Image (Standard) Post: Image (with Link) Post: Overlay Image with OpenGraph Override Post: Header Image with OpenGraph Override Post: Video (YouTube) Post: Link Post: Quote Post: Notice Post: Chat Post: Standard Post: Modified Date Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid Antidisestablishmentarianism Edge Case: Post with multiline excerpt Edge Case No Yaml Title Edge Case: No Body Content Edge Case: Many Categories Edge Case: Many Tags Edge Case: Nested and Mixed Lists Ejercicio de for Juan Perez saca la nota 7 Pedro Gonzalez saca la nota 9 Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962. El titulo de esta página es: Informe Esta página tiene una variable tags que es una lista con estos valores: Post Formatsreadabilitystandard Post Formats readability standard The Walking Dead En la temporada 1 de The Walking Dead vimos muchos colores: Sección de colores Guillermo Jorge Patricia</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+00:00</published><updated>2018-02-19T13:06:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -18,7 +319,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;excluded-file.html&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2017-11-28-post-exclude-search.md&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;subdirectory/*.html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">Layout: Header Video</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-05:00</published><updated>2017-01-23T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video/">&lt;p&gt;This post should display a &lt;strong&gt;header with a responsive video&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Jekyll" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">Layout: Header Video</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00+00:00</published><updated>2017-01-23T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/layout/uncategorized/layout-header-video/">&lt;p&gt;This post should display a &lt;strong&gt;header with a responsive video&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
 
 &lt;h2 id=&quot;settings&quot;&gt;Settings&lt;/h2&gt;
 
@@ -84,7 +385,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
   &lt;span class=&quot;na&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;212731897&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;vimeo&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html">This post should display a header with a responsive video, if the theme supports it.</summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00-04:00</published><updated>2018-03-20T16:01:04-04:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta/">&lt;p&gt;Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html">This post should display a header with a responsive video, if the theme supports it.</summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00+00:00</published><updated>2018-03-20T20:01:04+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-beta/">&lt;p&gt;Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://rubygems.org/gems/minimal-mistakes-jekyll&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minimal-mistakes-jekyll&lt;/code&gt;&lt;/a&gt; can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.&lt;/p&gt;
 
@@ -157,7 +458,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
       &lt;p&gt;You could also run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update jekyll&lt;/code&gt; to update Jekyll. &lt;a href=&quot;#fnref:update-jekyll&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00-04:00</published><updated>2018-03-20T16:00:58-04:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha/">&lt;p&gt;Jekyll &lt;a href=&quot;http://jekyllrb.com/docs/themes/&quot;&gt;themes distributed as Ruby gems&lt;/a&gt; are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00+00:00</published><updated>2018-03-20T20:00:58+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/gemified-theme-alpha/">&lt;p&gt;Jekyll &lt;a href=&quot;http://jekyllrb.com/docs/themes/&quot;&gt;themes distributed as Ruby gems&lt;/a&gt; are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.&lt;/p&gt;
 
 &lt;p&gt;If you’re interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:&lt;/p&gt;
 
@@ -241,7 +542,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/new&quot; class=&quot;btn btn--info btn--large&quot;&gt;File an issue&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-02-24T00:00:00-05:00</published><updated>2016-02-24T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-02-24T00:00:00+00:00</published><updated>2016-02-24T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/jekyll/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -254,7 +555,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting/" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2013-08-16T00:00:00-04:00</published><updated>2018-01-03T09:45:06-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting/">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting/" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2013-08-16T00:00:00+00:00</published><updated>2018-01-03T14:45:06+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-syntax-highlighting/">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;gfm-code-blocks&quot;&gt;GFM Code Blocks&lt;/h3&gt;
 
@@ -395,7 +696,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
       &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title type="html">Markup: Another Post with Images</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images/" rel="alternate" type="text/html" title="Markup: Another Post with Images" /><published>2013-05-22T00:00:00-04:00</published><updated>2013-05-22T00:00:00-04:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images/">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Gianmarco Corbo</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title type="html">Markup: Another Post with Images</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images/" rel="alternate" type="text/html" title="Markup: Another Post with Images" /><published>2013-05-22T00:00:00+00:00</published><updated>2013-05-22T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup-more-images/">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
 
 &lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
 
@@ -446,7 +747,7 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
 	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Michael Rose</name></author><category term="sample post" /><category term="images" /><category term="test" /><summary type="html">Examples and code for displaying images in posts.</summary></entry><entry><title type="html">Markup: HTML Tags and Formatting</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting" /><published>2013-01-11T00:00:00-05:00</published><updated>2013-01-11T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting/">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Gianmarco Corbo</name></author><category term="sample post" /><category term="images" /><category term="test" /><summary type="html">Examples and code for displaying images in posts.</summary></entry><entry><title type="html">Markup: HTML Tags and Formatting</title><link href="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting" /><published>2013-01-11T00:00:00+00:00</published><updated>2013-01-11T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/markup/markup-html-tags-and-formatting/">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
 
 &lt;h2 id=&quot;header-two&quot;&gt;Header two&lt;/h2&gt;
 
@@ -742,4 +1043,4 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 
 &lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
 
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>
+&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Gianmarco Corbo</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>
