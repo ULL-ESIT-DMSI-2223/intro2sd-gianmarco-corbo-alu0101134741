@@ -10,11 +10,11 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "aqua"  # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "Introducción a Desarrollo y mantenimiento de Sistemas"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
+subtitle                 : "Página para la realización de las practicas de clase"
+name                     : &name "Gianmarco Corbo" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/intro2sd-gianmarco-corbo-alu0101134741/" # the subpath of your site, e.g. "/blog"
@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
+  avatar           : "/assets/images/f1.jpg"
   bio              : "A Student"
   location         : "Islas Canarias"
   links:
@@ -110,7 +110,7 @@ author:
       url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/Gia-ui"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"
@@ -124,7 +124,7 @@ footer:
       url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/Gia-ui"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"
@@ -271,7 +271,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: 	Etc/GMT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
