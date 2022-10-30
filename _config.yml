@@ -15,7 +15,7 @@ title                    : "Introducción a Desarrollo y mantenimiento de Sistem
 title_separator          : "-"
 subtitle                 : "Página para la realización de las practicas de clase"
 name                     : &name "Gianmarco Corbo" # &name is a YAML anchor which can be *referenced later
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+description              : &description "En esta página se practicarán varios ejercicios para la creación de páginas web y se escribirá un informe en uno de los posts."
 url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/intro2sd-gianmarco-corbo-alu0101134741/" # the subpath of your site, e.g. "/blog"
 repository               : "mmistakes/minimal-mistakes"
@@ -99,21 +99,16 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/f1.jpg"
-  bio              : "A Student"
+  bio              : "Estudiante de la Universidad de La Laguna"
   location         : "Islas Canarias"
   links:
     - label: "Made Mistakes"
       icon: "fas fa-fw fa-link"
       url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Gia-ui"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+
 
 
 # Site Footer
