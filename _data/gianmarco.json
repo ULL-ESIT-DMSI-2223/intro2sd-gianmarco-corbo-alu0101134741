@@ -1,0 +1,8 @@
+{
+    "nombre": "Gianmarco",
+    "apellido": "Corbo",
+    "sexo": "Hombre",
+    "fechaNacimiento": "21/06/1999",
+    "nacionalidad": "Italiana",
+    "ciudadesResidencia": ["Agrigento", "Adeje", "San Cristobal de La Laguna"]
+}
