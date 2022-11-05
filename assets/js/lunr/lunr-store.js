@@ -125,16 +125,58 @@ var store = [{
         "url": "/intro2sd-gianmarco-corbo-alu0101134741/docs/license/",
         "teaser": null
       },{
+        "title": "C++",
+        "excerpt":"Se trata de uno de los lenguajes de programación de alto nivel en cuanto a posibilidades en el mundo de la manipulación de objetos.   Además, es un lenguaje muy usado para el desarrollo de videojuegos. Así que ya sabes: si te consideras gamer, esta es tu opción ideal para desarrollarte profesionalmente. La buena noticia es que se trata de un puesto laboral muy bien recompensado y demandado en el mercado actual.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/C++/",
+        "teaser": null
+      },{
         "title": "C",
         "excerpt":"C es uno de los lenguajes de programación más importantes en la actualidad, con el cual se desarrollan aplicaciones y sistemas operativos, a la vez que forma la base de otros lenguajes como Java, C++ o C#. Fue originalmente desarrollado por Dennis M. Ritchie entre 1969 y 1972 en los Laboratorios Bell, como evolución del lenguaje B.  ","categories": [],
         "tags": [],
         "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/C/",
         "teaser": null
       },{
+        "title": "Java",
+        "excerpt":"Java sigue prometiendo ser uno de los lenguajes de programación de alto nivel más usados de todo el mercado laboral.  Hoy en día, cuenta con más de 9 millones de usuarios y está presente en más de 7 mil millones de dispositivos. Empresas como Adobe y Amazon suelen buscar talentos que dominen este lenguaje de programación.   Este lenguaje está orientado a objetos y puede usarse fuera de su propia plataforma. Por esto, se puede desarrollar software y código que puedan correr en otros ordenadores, incluso, en otros sistemas operativos.   Otro punto a favor es su compatibilidad con versiones anteriores, algo que le permite ahorrar tiempo y dinero a las empresas.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/Java/",
+        "teaser": null
+      },{
+        "title": "Javascript",
+        "excerpt":"Javascript es otro de los lenguajes de programación más demandados a nivel mundial debido a su facilidad de uso y su alta compatibilidad.   Resumidamente, JavaScript es un lenguaje de programación dedicado a objetos, cuya característica principal es el desarrollo y actualización de contenido multimedia e interactivo de páginas web.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/Javascript/",
+        "teaser": null
+      },{
         "title": "Python",
         "excerpt":"Otro de los lenguajes de programación más demandados actualmente es Python. Este lenguaje de gran capacidad permite desarrollar programas de todo tipo y posee múltiples ventajas. Es de código abierto, es decir, gratuito, por lo que las limitaciones de desarrollo de software son casi nulas.   Además, es uno de los lenguajes de programación más sencillos de aprender debido a que su intención es parecerse al lenguaje humano. Desarrollar código en Python es como si diéramos órdenes a otra persona para que realice una acción. Es indicado para el manejo de datos, por lo que resulta uno de los lenguajes de programación backend más útiles.  ","categories": [],
         "tags": [],
         "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/Python/",
+        "teaser": null
+      },{
+        "title": "Assembly Language",
+        "excerpt":"También llamado lenguaje ensamblador o ASM (por sus siglas en inglés), se trata de un lenguaje de programación de bajo nivel. Un lenguaje ensamblador es específico de cierta arquitectura de computadora física, en contraste con la mayoría de los lenguajes de programación de alto nivel, que idealmente son portables.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/assembly/",
+        "teaser": null
+      },{
+        "title": "PHP",
+        "excerpt":"Por supuesto, en este listado de los 10 lenguajes de programación más usados no podía faltar PHP, que se ganó su popularidad por su dinamismo para poder crear páginas web interactivas desde cero.   Otra de las ventajas de este lenguaje es su posibilidad de ser código abierto. Esto permite tener una gran comunidad activa dispuesta a ayudar a los desarrolladores de todo el mundo.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/php/",
+        "teaser": null
+      },{
+        "title": "Swift",
+        "excerpt":"Se trata de un lenguaje creado por Apple para el desarrollo de aplicaciones, específicamente, para los sistemas iOS, tvOS, OS X y watchOS. Su funcionamiento se basa en la unión de características del lenguaje Objetive-C y C.   Swift es uno de los lenguajes de programación que no se limita a sus desarrolladores como tal, sino que cualquier persona puede desarrollar aplicaciones gracias a que es de código abierto.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/swift/",
+        "teaser": null
+      },{
+        "title": "Visual Basic",
+        "excerpt":"Según se explica en el sitio web oficial, Visual Basic es un lenguaje de programación orientado a objetos desarrollado por Microsoft. El uso de Visual Basic agiliza y simplifica la creación de aplicaciones .NET con seguridad de tipos.  ","categories": [],
+        "tags": [],
+        "url": "/intro2sd-gianmarco-corbo-alu0101134741/lenguajes/visualBasic/",
         "teaser": null
       },{
         "title": "Lhasa Apso",
