@@ -3,6 +3,10 @@
     "apellido": "Corbo",
     "sexo": "Hombre",
     "fechaNacimiento": "21/06/1999",
+    "ciudadNacimiento": "Augusta, Italia",
     "nacionalidad": "Italiana",
-    "ciudadesResidencia": ["Agrigento", "Adeje", "San Cristobal de La Laguna"]
+    "ciudadesResidencia": ["Augusta", "Agrigento", "Adeje", "San Cristobal de La Laguna"],
+    "idiomas": [ "italiano", "español", "inglés" ],
+    "universidad": "Universidad de La Laguna",
+    "estudiosUniversitarios": [ "Grado en ingeniería informatica" ]
 }

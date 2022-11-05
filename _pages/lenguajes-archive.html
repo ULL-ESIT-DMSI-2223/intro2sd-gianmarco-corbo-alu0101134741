@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Colección de lenguajes"
+permalink: /lenguajes-archive/
+author_profile: true
+---
+
+{% for lenguaje in site.lenguajes %}
+    <div class="lenguaje">
+        <h2>{{ lenguaje.title }}</a></h2>
+        {{ lenguaje.content }}
+    </div>
+{% endfor %}
