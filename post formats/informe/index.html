@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Informe - Introducción a Desarrollo y mantenimiento de Sistemas</title>
-<meta name="description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.      Ejercicios varios (se borrarán tras terminar el informe)  2022-11-05 16:42:50 +0000  Ejercicio: escribir los titulos de los posts en una lista          Post: Future Date           Informe           Exclude Post from Search Index           Layout: Header Video           Gemified Theme – Beta Release           Gemified Theme – Alpha Release           Welcome to Jekyll!           Markup: Syntax Highlighting           Markup: Another Post with Images           Markup: HTML Tags and Formatting           Markup: Image Alignment           Markup: Text Alignment           Markup: Title with Special — Characters           Markup: Title with Markdown           Markup: Text Readability Test           Wide Single Layout Page           Layout: Sidebar with Navigation List           Layout: Sidebar Custom           Layout: More Tag           Layout: Header Image Overlay           Layout: Header Image Overlay with Custom Tagline           Layout: Header Overlay with Background Fill           Layout: Header Image (Vertical)           Layout: Header Image and Text Readability           Layout: Header Image (Horizontal)           Layout: Header Image (External URL)           Layout: Author Sidebar Disabled           Layout: Author Override           Layout: Excerpt (Generated)           Layout: Excerpt (Defined)           Layout: Code Excerpt (Generated)           Layout: Post with Sticky Table of Contents           Layout: Post with Table of Contents           Layout: Post with Nested Table of Contents           Layout: Post with Nested Table of Contents via Helper           Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled           Layout: Social Sharing Links Enabled           Layout: Social Sharing Links Disabled           Layout: Related Posts Enabled           Layout: Related Posts Disabled           Layout: Read Time Enabled           Layout: Read Time Disabled           Layout: Post Date Enabled           Layout: Post Date Disabled           Layout: Comments Enabled           Layout: Comments Disabled           Post: Twitter Embed           Post: Gallery           Post: Image (Caption)           Post: Image (Linked with Caption)           Post: Teaser Image with OpenGraph Override           Post: Image (Standard)           Post: Image (with Link)           Post: Overlay Image with OpenGraph Override           Post: Header Image with OpenGraph Override           Post: Video (YouTube)           Post: Link           Post: Quote           Post: Notice           Post: Chat           Post: Standard           Post: Modified Date           Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid           Antidisestablishmentarianism           Edge Case: Post with multiline excerpt           Edge Case No Yaml Title           Edge Case: No Body Content           Edge Case: Many Categories           Edge Case: Many Tags           Edge Case: Nested and Mixed Lists      Ejercicio de for          Juan Perez saca la nota 7           Pedro Gonzalez saca la nota 9      Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.  The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.  El titulo de esta página es: Informe  Esta página tiene una variable tags que es una lista con estos valores:  Post Formatsreadabilitystandard          Post Formats           readability           standard      Gianmarco  En la temporada  de  vimos muchos colores:  ###">
+<meta name="description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.">
 
 
   <meta name="author" content="Gianmarco Corbo">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/">
 
 
-  <meta property="og:description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.      Ejercicios varios (se borrarán tras terminar el informe)  2022-11-05 16:42:50 +0000  Ejercicio: escribir los titulos de los posts en una lista          Post: Future Date           Informe           Exclude Post from Search Index           Layout: Header Video           Gemified Theme – Beta Release           Gemified Theme – Alpha Release           Welcome to Jekyll!           Markup: Syntax Highlighting           Markup: Another Post with Images           Markup: HTML Tags and Formatting           Markup: Image Alignment           Markup: Text Alignment           Markup: Title with Special — Characters           Markup: Title with Markdown           Markup: Text Readability Test           Wide Single Layout Page           Layout: Sidebar with Navigation List           Layout: Sidebar Custom           Layout: More Tag           Layout: Header Image Overlay           Layout: Header Image Overlay with Custom Tagline           Layout: Header Overlay with Background Fill           Layout: Header Image (Vertical)           Layout: Header Image and Text Readability           Layout: Header Image (Horizontal)           Layout: Header Image (External URL)           Layout: Author Sidebar Disabled           Layout: Author Override           Layout: Excerpt (Generated)           Layout: Excerpt (Defined)           Layout: Code Excerpt (Generated)           Layout: Post with Sticky Table of Contents           Layout: Post with Table of Contents           Layout: Post with Nested Table of Contents           Layout: Post with Nested Table of Contents via Helper           Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled           Layout: Social Sharing Links Enabled           Layout: Social Sharing Links Disabled           Layout: Related Posts Enabled           Layout: Related Posts Disabled           Layout: Read Time Enabled           Layout: Read Time Disabled           Layout: Post Date Enabled           Layout: Post Date Disabled           Layout: Comments Enabled           Layout: Comments Disabled           Post: Twitter Embed           Post: Gallery           Post: Image (Caption)           Post: Image (Linked with Caption)           Post: Teaser Image with OpenGraph Override           Post: Image (Standard)           Post: Image (with Link)           Post: Overlay Image with OpenGraph Override           Post: Header Image with OpenGraph Override           Post: Video (YouTube)           Post: Link           Post: Quote           Post: Notice           Post: Chat           Post: Standard           Post: Modified Date           Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid           Antidisestablishmentarianism           Edge Case: Post with multiline excerpt           Edge Case No Yaml Title           Edge Case: No Body Content           Edge Case: Many Categories           Edge Case: Many Tags           Edge Case: Nested and Mixed Lists      Ejercicio de for          Juan Perez saca la nota 7           Pedro Gonzalez saca la nota 9      Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.  The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.  El titulo de esta página es: Informe  Esta página tiene una variable tags que es una lista con estos valores:  Post Formatsreadabilitystandard          Post Formats           readability           standard      Gianmarco  En la temporada  de  vimos muchos colores:  ###">
+  <meta property="og:description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.">
 
 
 
@@ -36,7 +36,7 @@
 
   <meta name="twitter:site" content="@mmistakes">
   <meta name="twitter:title" content="Informe">
-  <meta name="twitter:description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.      Ejercicios varios (se borrarán tras terminar el informe)  2022-11-05 16:42:50 +0000  Ejercicio: escribir los titulos de los posts en una lista          Post: Future Date           Informe           Exclude Post from Search Index           Layout: Header Video           Gemified Theme – Beta Release           Gemified Theme – Alpha Release           Welcome to Jekyll!           Markup: Syntax Highlighting           Markup: Another Post with Images           Markup: HTML Tags and Formatting           Markup: Image Alignment           Markup: Text Alignment           Markup: Title with Special — Characters           Markup: Title with Markdown           Markup: Text Readability Test           Wide Single Layout Page           Layout: Sidebar with Navigation List           Layout: Sidebar Custom           Layout: More Tag           Layout: Header Image Overlay           Layout: Header Image Overlay with Custom Tagline           Layout: Header Overlay with Background Fill           Layout: Header Image (Vertical)           Layout: Header Image and Text Readability           Layout: Header Image (Horizontal)           Layout: Header Image (External URL)           Layout: Author Sidebar Disabled           Layout: Author Override           Layout: Excerpt (Generated)           Layout: Excerpt (Defined)           Layout: Code Excerpt (Generated)           Layout: Post with Sticky Table of Contents           Layout: Post with Table of Contents           Layout: Post with Nested Table of Contents           Layout: Post with Nested Table of Contents via Helper           Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled           Layout: Social Sharing Links Enabled           Layout: Social Sharing Links Disabled           Layout: Related Posts Enabled           Layout: Related Posts Disabled           Layout: Read Time Enabled           Layout: Read Time Disabled           Layout: Post Date Enabled           Layout: Post Date Disabled           Layout: Comments Enabled           Layout: Comments Disabled           Post: Twitter Embed           Post: Gallery           Post: Image (Caption)           Post: Image (Linked with Caption)           Post: Teaser Image with OpenGraph Override           Post: Image (Standard)           Post: Image (with Link)           Post: Overlay Image with OpenGraph Override           Post: Header Image with OpenGraph Override           Post: Video (YouTube)           Post: Link           Post: Quote           Post: Notice           Post: Chat           Post: Standard           Post: Modified Date           Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid           Antidisestablishmentarianism           Edge Case: Post with multiline excerpt           Edge Case No Yaml Title           Edge Case: No Body Content           Edge Case: Many Categories           Edge Case: Many Tags           Edge Case: Nested and Mixed Lists      Ejercicio de for          Juan Perez saca la nota 7           Pedro Gonzalez saca la nota 9      Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.  The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.  El titulo de esta página es: Informe  Esta página tiene una variable tags que es una lista con estos valores:  Post Formatsreadabilitystandard          Post Formats           readability           standard      Gianmarco  En la temporada  de  vimos muchos colores:  ###">
+  <meta name="twitter:description" content="Informe práctica Introduction to Systems Development      1. Reconfigurando _config.yml y valores de default  2. Desplegando el sitio Web en GitHub pages usando Jekyll  3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Reconfigurando _config.yml y valores de default  Editar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web. En este caso, se han modificado los siguientes parametros:     minimal_mistakes_skin: Se ha cambiado la skin a aqua.   locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.   title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.   subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.   name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.   description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.   baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.   author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:            *name: Referencia al ancla name que se modificó anteriormente.       avatar: Ruta para el archivo de la imagen del autor.       bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.       location: Lugar de residencia del autor. Modificado a Islas Canarias.       links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .           footer:  Representa el pie de página.            links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .                 También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:      Desplegando el sitio Web en GitHub pages usando Jekyll  Para desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site. Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages. Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages. Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página. Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.    Tras eso, enlazamos la página web a nuestro perfil personal:    Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _data  Se ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:  El nombre y apellido del alumno es Gianmarco Corbo.  Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana.  Desde entonces ha vivido en las siguientes ciudades:          Augusta           Agrigento           Adeje           San Cristobal de La Laguna      Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:     Grado en ingeniería informatica   Además, es el creador de esta página llamada Informe.">
   <meta name="twitter:url" content="https://mmistakes.github.io/intro2sd-gianmarco-corbo-alu0101134741/post%20formats/informe/">
 
   
@@ -140,6 +140,8 @@
           <span class="site-subtitle">Página para la realización de las practicas de clase</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/intro2sd-gianmarco-corbo-alu0101134741/lenguajes-archive/">Colección lenguajes</a>
+            </li><li class="masthead__menu-item">
               <a href="/intro2sd-gianmarco-corbo-alu0101134741/docs/quick-start-guide/">Quick-Start Guide</a>
             </li><li class="masthead__menu-item">
               <a href="/intro2sd-gianmarco-corbo-alu0101134741/about/">About</a>
@@ -287,7 +289,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Informe">
-    <meta itemprop="description" content="  Informe práctica Introduction to Systems Development 1. Reconfigurando _config.yml y valores de default2. Desplegando el sitio Web en GitHub pages usando Jekyll3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _dataReconfigurando _config.yml y valores de defaultEditar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web.En este caso, se han modificado los siguientes parametros:  minimal_mistakes_skin: Se ha cambiado la skin a aqua.  locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.  title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.  subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.  name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.  description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.  baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.  author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:          *name: Referencia al ancla name que se modificó anteriormente.      avatar: Ruta para el archivo de la imagen del autor.      bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.      location: Lugar de residencia del autor. Modificado a Islas Canarias.      links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .        footer:  Representa el pie de página.          links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .      También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:Desplegando el sitio Web en GitHub pages usando JekyllPara desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site.Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages.Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages.Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página.Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.Tras eso, enlazamos la página web a nuestro perfil personal:Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _dataSe ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:El nombre y apellido del alumno es Gianmarco Corbo. Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana. Desde entonces ha vivido en las siguientes ciudades:      Augusta        Agrigento        Adeje        San Cristobal de La Laguna  Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:  Grado en ingeniería informaticaAdemás, es el creador de esta página llamada Informe.Ejercicios varios (se borrarán tras terminar el informe)2022-11-05 16:42:50 +0000Ejercicio: escribir los titulos de los posts en una lista      Post: Future Date        Informe        Exclude Post from Search Index        Layout: Header Video        Gemified Theme – Beta Release        Gemified Theme – Alpha Release        Welcome to Jekyll!        Markup: Syntax Highlighting        Markup: Another Post with Images        Markup: HTML Tags and Formatting        Markup: Image Alignment        Markup: Text Alignment        Markup: Title with Special — Characters        Markup: Title with Markdown        Markup: Text Readability Test        Wide Single Layout Page        Layout: Sidebar with Navigation List        Layout: Sidebar Custom        Layout: More Tag        Layout: Header Image Overlay        Layout: Header Image Overlay with Custom Tagline        Layout: Header Overlay with Background Fill        Layout: Header Image (Vertical)        Layout: Header Image and Text Readability        Layout: Header Image (Horizontal)        Layout: Header Image (External URL)        Layout: Author Sidebar Disabled        Layout: Author Override        Layout: Excerpt (Generated)        Layout: Excerpt (Defined)        Layout: Code Excerpt (Generated)        Layout: Post with Sticky Table of Contents        Layout: Post with Table of Contents        Layout: Post with Nested Table of Contents        Layout: Post with Nested Table of Contents via Helper        Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled        Layout: Social Sharing Links Enabled        Layout: Social Sharing Links Disabled        Layout: Related Posts Enabled        Layout: Related Posts Disabled        Layout: Read Time Enabled        Layout: Read Time Disabled        Layout: Post Date Enabled        Layout: Post Date Disabled        Layout: Comments Enabled        Layout: Comments Disabled        Post: Twitter Embed        Post: Gallery        Post: Image (Caption)        Post: Image (Linked with Caption)        Post: Teaser Image with OpenGraph Override        Post: Image (Standard)        Post: Image (with Link)        Post: Overlay Image with OpenGraph Override        Post: Header Image with OpenGraph Override        Post: Video (YouTube)        Post: Link        Post: Quote        Post: Notice        Post: Chat        Post: Standard        Post: Modified Date        Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid        Antidisestablishmentarianism        Edge Case: Post with multiline excerpt        Edge Case No Yaml Title        Edge Case: No Body Content        Edge Case: Many Categories        Edge Case: Many Tags        Edge Case: Nested and Mixed Lists  Ejercicio de for      Juan Perez saca la nota 7        Pedro Gonzalez saca la nota 9  Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.El titulo de esta página es: InformeEsta página tiene una variable tags que es una lista con estos valores:Post Formatsreadabilitystandard      Post Formats        readability        standard  GianmarcoEn la temporada  de  vimos muchos colores:###">
+    <meta itemprop="description" content="  Informe práctica Introduction to Systems Development 1. Reconfigurando _config.yml y valores de default2. Desplegando el sitio Web en GitHub pages usando Jekyll3. Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _dataReconfigurando _config.yml y valores de defaultEditar el archivo _config.yml permite configurar la mayoría de los valores de Jekyll, como los temas y los plugins del sitio web.En este caso, se han modificado los siguientes parametros:  minimal_mistakes_skin: Se ha cambiado la skin a aqua.  locale: Indica el idioma en la que está escrita la página. En este caso se ha cambiado a es-ES para que resulte el idioma español de España.  title: El titulo de la página. Se ha cambiado a Introducción a Desarrollo y mantenimiento de Sistemas.  subtitle: El subtitulo de la página. Se ha modificado especificando para que se va a usar la página.  name: Ancla YAML que se usa para mostrar el nombre del autor de la página y que se puede referenciar en otras partes del archivo de configuración. Se ha cambiado a Gianmarco Corbo.  description: Otra ancla que se podrá referenciar, donde hay una pequeña descripción de la página.  baseurl: Subruta de la url de la página web, se ha modificado para que sea el repositorio de esta práctica.  author: Este objeto es para representar el autor de la página, por lo que se han modificado varios parametros:          *name: Referencia al ancla name que se modificó anteriormente.      avatar: Ruta para el archivo de la imagen del autor.      bio: Una descripción del autor. Se ha modificado a Estudiante de la Universidad de La Laguna.      location: Lugar de residencia del autor. Modificado a Islas Canarias.      links: Array de enlaces de referencia. Se han borrado los relativos a Instagram y Twitter, mientras que se ha modificado el de Github para que el enlace lleve a la página de github https://github.com/Gia-ui .        footer:  Representa el pie de página.          links: Array de enlaces que se mostrarán en el pie de página. Se ha modificado solo el enlace de Github para que lleve a la página de https://github.com/Gia-ui .      También se han modificado algunos parametros de default, donde se especifican unas reglas generales que se aplicarán a un grupo especifico de páginas, como por ejemplo los posts o las colecciones:Desplegando el sitio Web en GitHub pages usando JekyllPara desplegar una página con gh-pages usamos el siguiente comando: npx gh-pages -d _site.Npx es un ejecutor de paquetes basados en Node.js, que en este caso es gh-pages.Gh-pages es un paquete que contiene un módulo de despliegue automático que realiza las tareas necesarias para el despliegue de la página web de nuestro repositorio en los servidores de github de gh-pages.Crea automáticamente una rama en nuestro repositorio llamada gh-pages donde situa los archivos necesarios para el despliegue de la página.Si vamos a nuestro repositorio y seleccionamos Actions se nos mostrará un workflow por cada despliegue que hemos realizado, por lo que, en caso de que ocurra algún problema durante la operación, podremos visualizar el error aquí, para así poder solucionarlo.Tras eso, enlazamos la página web a nuestro perfil personal:Utilizando liquid para mostrar parametros obtenidos por un .json que ha sido creado en _dataSe ha creado un archivo gianmarco.json en la carpeta _data donde figura información sobre el alumno Gianmarco Corbo y se usará Liquid para mostrar dicha información:El nombre y apellido del alumno es Gianmarco Corbo. Nació el 21/06/1999 en Augusta, Italia, por lo que su nacionalidad es Italiana. Desde entonces ha vivido en las siguientes ciudades:      Augusta        Agrigento        Adeje        San Cristobal de La Laguna  Ha cursado en la Universidad de La Laguna la/s siguiente/s titulación/es:  Grado en ingeniería informaticaAdemás, es el creador de esta página llamada Informe.">
     <meta itemprop="datePublished" content="2022-10-01T00:00:00+00:00">
     
 
@@ -407,265 +409,6 @@ Desde entonces ha vivido en las siguientes ciudades:</p>
 <p><img src="/intro2sd-gianmarco-corbo-alu0101134741/assets/images/jsonLiquid1.png" alt="jsonLiquid1" /></p>
 
 <p><img src="/intro2sd-gianmarco-corbo-alu0101134741/assets/images/jsonLiquid2.png" alt="jsonLiquid2" /></p>
-
-<h1 id="ejercicios-varios-se-borrarán-tras-terminar-el-informe">Ejercicios varios (se borrarán tras terminar el informe)</h1>
-
-<h2 id="2022-11-05-164250-0000">2022-11-05 16:42:50 +0000</h2>
-
-<h2 id="ejercicio-escribir-los-titulos-de-los-posts-en-una-lista">Ejercicio: escribir los titulos de los posts en una lista</h2>
-
-<ul>
-  <li>
-    <p>Post: Future Date</p>
-  </li>
-  <li>
-    <p>Informe</p>
-  </li>
-  <li>
-    <p>Exclude Post from Search Index</p>
-  </li>
-  <li>
-    <p>Layout: Header Video</p>
-  </li>
-  <li>
-    <p>Gemified Theme – Beta Release</p>
-  </li>
-  <li>
-    <p>Gemified Theme – Alpha Release</p>
-  </li>
-  <li>
-    <p>Welcome to Jekyll!</p>
-  </li>
-  <li>
-    <p>Markup: Syntax Highlighting</p>
-  </li>
-  <li>
-    <p>Markup: Another Post with Images</p>
-  </li>
-  <li>
-    <p>Markup: HTML Tags and Formatting</p>
-  </li>
-  <li>
-    <p>Markup: Image Alignment</p>
-  </li>
-  <li>
-    <p>Markup: Text Alignment</p>
-  </li>
-  <li>
-    <p>Markup: Title with Special — Characters</p>
-  </li>
-  <li>
-    <p>Markup: Title <em>with</em> <strong>Markdown</strong></p>
-  </li>
-  <li>
-    <p>Markup: Text Readability Test</p>
-  </li>
-  <li>
-    <p>Wide Single Layout Page</p>
-  </li>
-  <li>
-    <p>Layout: Sidebar with Navigation List</p>
-  </li>
-  <li>
-    <p>Layout: Sidebar Custom</p>
-  </li>
-  <li>
-    <p>Layout: More Tag</p>
-  </li>
-  <li>
-    <p>Layout: Header Image Overlay</p>
-  </li>
-  <li>
-    <p>Layout: Header Image Overlay with Custom Tagline</p>
-  </li>
-  <li>
-    <p>Layout: Header Overlay with Background Fill</p>
-  </li>
-  <li>
-    <p>Layout: Header Image (Vertical)</p>
-  </li>
-  <li>
-    <p>Layout: Header Image and Text Readability</p>
-  </li>
-  <li>
-    <p>Layout: Header Image (Horizontal)</p>
-  </li>
-  <li>
-    <p>Layout: Header Image (External URL)</p>
-  </li>
-  <li>
-    <p>Layout: Author Sidebar Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Author Override</p>
-  </li>
-  <li>
-    <p>Layout: Excerpt (Generated)</p>
-  </li>
-  <li>
-    <p>Layout: Excerpt (Defined)</p>
-  </li>
-  <li>
-    <p>Layout: Code Excerpt (Generated)</p>
-  </li>
-  <li>
-    <p>Layout: Post with Sticky Table of Contents</p>
-  </li>
-  <li>
-    <p>Layout: Post with Table of Contents</p>
-  </li>
-  <li>
-    <p>Layout: Post with Nested Table of Contents</p>
-  </li>
-  <li>
-    <p>Layout: Post with Nested Table of Contents via Helper</p>
-  </li>
-  <li>
-    <p>Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Social Sharing Links Enabled</p>
-  </li>
-  <li>
-    <p>Layout: Social Sharing Links Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Related Posts Enabled</p>
-  </li>
-  <li>
-    <p>Layout: Related Posts Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Read Time Enabled</p>
-  </li>
-  <li>
-    <p>Layout: Read Time Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Post Date Enabled</p>
-  </li>
-  <li>
-    <p>Layout: Post Date Disabled</p>
-  </li>
-  <li>
-    <p>Layout: Comments Enabled</p>
-  </li>
-  <li>
-    <p>Layout: Comments Disabled</p>
-  </li>
-  <li>
-    <p>Post: Twitter Embed</p>
-  </li>
-  <li>
-    <p>Post: Gallery</p>
-  </li>
-  <li>
-    <p>Post: Image (Caption)</p>
-  </li>
-  <li>
-    <p>Post: Image (Linked with Caption)</p>
-  </li>
-  <li>
-    <p>Post: Teaser Image with OpenGraph Override</p>
-  </li>
-  <li>
-    <p>Post: Image (Standard)</p>
-  </li>
-  <li>
-    <p>Post: Image (with Link)</p>
-  </li>
-  <li>
-    <p>Post: Overlay Image with OpenGraph Override</p>
-  </li>
-  <li>
-    <p>Post: Header Image with OpenGraph Override</p>
-  </li>
-  <li>
-    <p>Post: Video (YouTube)</p>
-  </li>
-  <li>
-    <p>Post: Link</p>
-  </li>
-  <li>
-    <p>Post: Quote</p>
-  </li>
-  <li>
-    <p>Post: Notice</p>
-  </li>
-  <li>
-    <p>Post: Chat</p>
-  </li>
-  <li>
-    <p>Post: Standard</p>
-  </li>
-  <li>
-    <p>Post: Modified Date</p>
-  </li>
-  <li>
-    <p>Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid</p>
-  </li>
-  <li>
-    <p>Antidisestablishmentarianism</p>
-  </li>
-  <li>
-    <p>Edge Case: Post with multiline excerpt</p>
-  </li>
-  <li>
-    <p>Edge Case No Yaml Title</p>
-  </li>
-  <li>
-    <p>Edge Case: No Body Content</p>
-  </li>
-  <li>
-    <p>Edge Case: Many Categories</p>
-  </li>
-  <li>
-    <p>Edge Case: Many Tags</p>
-  </li>
-  <li>
-    <p>Edge Case: Nested and Mixed Lists</p>
-  </li>
-</ul>
-
-<h2 id="ejercicio-de-for">Ejercicio de for</h2>
-
-<ul>
-  <li>
-    <p>Juan Perez saca la nota 7</p>
-  </li>
-  <li>
-    <p>Pedro Gonzalez saca la nota 9</p>
-  </li>
-</ul>
-
-<p>Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.</p>
-
-<p>The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
-Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</p>
-
-<p>El titulo de esta página es: Informe</p>
-
-<p>Esta página tiene una variable tags que es una lista con estos valores:</p>
-
-<p>Post Formatsreadabilitystandard</p>
-
-<ul>
-  <li>
-    <p>Post Formats</p>
-  </li>
-  <li>
-    <p>readability</p>
-  </li>
-  <li>
-    <p>standard</p>
-  </li>
-</ul>
-
-<h2 id="gianmarco">Gianmarco</h2>
-
-<p>En la temporada  de  vimos muchos colores:</p>
-
-<p>###</p>
 
 
         
