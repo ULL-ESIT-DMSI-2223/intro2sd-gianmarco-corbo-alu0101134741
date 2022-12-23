@@ -16,11 +16,15 @@
 
 <script type="text/javascript">
 
-  const search = new JekyllSearch(
+  const searchParameters = {
     '/intro2sd-gianmarco-corbo-alu0101134741//assets/src/search.json',
     '#search',
     '#list',
     '/intro2sd-gianmarco-corbo-alu0101134741/'
+  }
+
+  const search = new JekyllSearch(
+    searchParameters
   );
   search.init(); 
   
