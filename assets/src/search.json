@@ -18,13 +18,7 @@ sitemap: false
     {% endfor %}
   {% endfor %}
   {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.title != null' %}
-  {% for page in pages $}
-  {
-    "title": {{ page.title | jsonify }},
-    "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
-    "content": {{ page.content | markdownify | strip_html | jsonify }},
-    "url": {{ site.baseurl | append: page.url | jsonify }}
-  }{% for page in pages $}
+  {% for page in pages %}
   {
     "title": {{ page.title | jsonify }},
     "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
