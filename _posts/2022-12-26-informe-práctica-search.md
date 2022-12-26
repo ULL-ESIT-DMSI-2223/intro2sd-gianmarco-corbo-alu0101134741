@@ -15,4 +15,3 @@ excerpt_separator: "<!--more-->"
 Al comienzo de la práctica se ha creado una rama intro2sd para señalar el punto de entrega de la anterior práctica mientras que para esta práctica seguiremos usando la rama main. </br>
 
 ![ramaNueva]({{ "/assets/images/ramaNueva.png" | relative_url }})
-
