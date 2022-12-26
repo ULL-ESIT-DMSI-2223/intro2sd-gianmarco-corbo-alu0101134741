@@ -8,6 +8,7 @@ class JekyllSearch {
     this.data = []
   }
 
+
   fetchedData() {
     return fetch(this.dataSource, {mode: 'no-cors'})
       .then(blob => blob.json())
@@ -39,7 +40,7 @@ class JekyllSearch {
       this.resultsList.innerHTML = `<p>Sorry, no results found.</p>`
     } else {
       this.resultsList.innerHTML = html
-    }
+    } 
   }
 
   // https://stackoverflow.com/questions/43431550/async-await-class-constructor
