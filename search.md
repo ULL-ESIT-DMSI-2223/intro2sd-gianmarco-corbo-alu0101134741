@@ -1,3 +1,4 @@
+<!-- 
 ---
 layout: error 
 permalink: /search/
@@ -42,3 +43,5 @@ title: Search
 {% endcapture %}
 
 {{ initSearch | lstrip }}
+ 
+ -->
