@@ -10,6 +10,17 @@ excerpt_separator: "<!--more-->"
 
 </p>
 
+<!-- TABLE OF CONTENTS -->
+**1.** [Se ha creado una rama intro2sd para señalar el punto de entrega de la anterior práctica](https://ull-esit-dmsi-2223.github.io/intro2sd-gianmarco-corbo-alu0101134741/informe-practica-search/#1-se-ha-creado-una-rama-intro2sd-para-se%C3%B1alar-el-punto-de-entrega-de-la-anterior-pr%C3%A1ctica)
+
+**2.** [Creación del archivo search.json](https://ull-esit-dmsi-2223.github.io/intro2sd-gianmarco-corbo-alu0101134741/informe-practica-search/#2-creaci%C3%B3n-del-archivo-searchjson)
+
+**3.** [Creación del archivo search.js](https://ull-esit-dmsi-2223.github.io/intro2sd-gianmarco-corbo-alu0101134741/informe-practica-search/#3-creaci%C3%B3n-del-archivo-searchjs)
+
+**4.** [Creación del archivo search.md](https://ull-esit-dmsi-2223.github.io/intro2sd-gianmarco-corbo-alu0101134741/informe-practica-search/#4-creaci%C3%B3n-del-archivo-searchmd)
+
+**5.** [Resumen capitulo 2 del libro Developing Information Systems, editado by James Cadle](https://ull-esit-dmsi-2223.github.io/intro2sd-gianmarco-corbo-alu0101134741/informe-practica-search/#5-resumen-capitulo-2-del-libro-developing-information-systems-editado-by-james-cadle)
+
 ## 1. Se ha creado una rama intro2sd para señalar el punto de entrega de la anterior práctica
 
 Al comienzo de la práctica se ha creado una rama intro2sd para señalar el punto de entrega de la anterior práctica mientras que para esta práctica seguiremos usando la rama main. </br>
