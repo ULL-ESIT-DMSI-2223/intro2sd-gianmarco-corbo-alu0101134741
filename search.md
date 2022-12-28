@@ -23,7 +23,7 @@ title: Search
 
 <script type="text/javascript">
 
-  const searchArguments = {
+  const searchParameters = {
     dataSource: '{{site.baseurl}}assets/src/search.json',
     searchField: '#search',
     resultsList: '#list',
@@ -31,7 +31,7 @@ title: Search
   }
 
   const search = new JekyllSearch(
-    searchArguments
+    searchParameters
   );
   search.init(); 
   
