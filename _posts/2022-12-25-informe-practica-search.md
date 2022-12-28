@@ -207,7 +207,26 @@ Scrum es un marco de trabajo que define un conjunto de eventos, prácticas y rol
 Los roles principales en Scrum son el Scrum Master, que procura facilitar la aplicación de Scrum y gestionar cambios, el Product Owner, que representa a los interesados, y el Team que ejecuta el desarrollo y demás elementos relacionados con él. <br>
 Durante cada sprint el equipo crea un incremento de software entregable. El conjunto de características que forma parte de cada sprint viene del Product Backlog, que es un conjunto de requisitos de alto nivel priorizados que definen el trabajo a realizar. Los elementos del Product Backlog que forman parte del sprint se determinan durante la reunión de Sprint Planning. Durante esta reunión, el Product Owner identifica los elementos del Product Backlog que quiere ver completados y los da a conocer al equipo. 
 
-- **RUP** (Rational Unified Process): es un enfoque de desarrollo que se basa en la metodología ágil. <br>
-- **Lean Software Development**: es un enfoque de desarrollo que se basa en la metodología ágil. <br>
+- **RUP** (Rational Unified Process): El proceso Rational Unified (RUP) es un proceso de ingeniería de software iterativo, evolutivo e incremental, construido sobre los cimientos del modelo espiral, que asigna y gestiona tareas y responsabilidades de forma disciplinada dentro de una organización desarrollo. <br>
+El proceso RUP se basa en cuatro fases: <br>
+  · Inicio <br>
+  · Elaboración <br>
+  · Construcción <br>
+  · Transición <br>
+Al ser un proceso de software, RUP es popular entre los equipos de desarrolladores y utiliza uso extensivo de UML (el Lenguaje Unificado de Modelado) para el Análisis y Diseño
+orientado a objetos (OOA&D) y el modelado de casos. Esto puede resultar abrumador pero fomenta un diseño sólido y una buena trazabilidad. <br>
+<br>
+
+- **Lean Software Development**: Se trata de un conjunto de técnicas y herramientas que pueden aplicarse para eliminar el malgasto de dinero en la fabricación y mejorar así la productividad. Se basa en los siguientes principios son: <br>
+
+  · Centrarse en los clientes;
+  · Dinamizar a los trabajadores;
+  · Eliminar el despilfarro;
+  · Aprender rápido;
+  · Entregar rápido;
+  · Incorporar la calidad;
+  · Seguir mejorando;
+  · Optimizar el conjunto.
+
 
 
