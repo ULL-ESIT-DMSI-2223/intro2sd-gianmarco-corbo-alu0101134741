@@ -23,15 +23,11 @@ title: Search
 
 <script type="text/javascript">
 
-  const searchParameters = {
+  const search = new JekyllSearch(
     '{{site.baseurl}}assets/src/search.json',
     '#search',
     '#list',
     '{{site.baseurl}}'
-  }
-
-  const search = new JekyllSearch(
-    searchParameters
   );
   search.init(); 
   
