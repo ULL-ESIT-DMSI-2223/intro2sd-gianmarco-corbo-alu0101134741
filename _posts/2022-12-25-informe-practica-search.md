@@ -63,7 +63,7 @@ Las fases que lo componen son: <br>
 - **Pruebas**: se prueban las funcionalidades del sistema para comprobar que cumplen los requisitos especificados. <br>
 - **Implantación**: se despliega el sistema en el entorno de producción. <br>
 
-Los elementos que componen el ciclo de desarrollo de sistemas son: <br>
+### Los elementos que componen el ciclo de desarrollo de sistemas son: <br>
 
 - **Contexto**: es el entorno en el que se desarrolla el proyecto, que es necesario comprender en su totalidad para saber como puede afectar al desarrollo de nuestro sistema. <br>
 - **Ciclo de vida**: es el proceso de desarrollo del sistema, que se divide en fases. Puede ser tanto lineal como iterativo. <br>
@@ -93,7 +93,7 @@ Además, los costes de desarrollo son mayores, ya que se llevan a cabo más acti
 Como podemos ver, es un enfoque más adecuado para proyectos grandes, complejos o con cambios muy frecuentes. <br>
 <br>
 
-Los ciclos de vida basados en el enfoque lineal son: <br>
+### Los ciclos de vida basados en el enfoque lineal son: <br>
 
 - **Ciclo de vida en cascada**: en el ciclo de vida en cascada es necesario terminar una fase antes de empezar la siguiente. <br>
 En caso de que hay un problema en una fase, volvemos a empezar en la fase anterior para intentar corregirlo. <br>
@@ -144,4 +144,70 @@ Las fases del ciclo de vida en espiral son:
 Tiene más o menos las mismas ventajas que el ciclo de vida iterativo, con el añadido de una mejor gestión de riesgos. <br>
 Por otro lado los costes llegan a ser incluso mayores y hay más enfoque en la parte funcionante del sistema, por lo que no es muy adecuado para proyectos que requieran una gran cantidad de documentación. <br>
 <br>
+
+Ágil es un término popular que ahora se da a los enfoques de desarrollo evolutivo tras el
+Manifiesto Ágil" de 2001. 
+El Manifiesto Ágil dio lugar a una nueva forma de pensar sobre el desarrollo de software
+y surgió una nueva moda de métodos, procesos y ciclos de vida de desarrollo Agile.
+Los ciclos de vida lineales, como el de cascada, el modelo en "V" y el incremental cedieron paso a enfoques más evolutivos como Scrum y el Proceso Ágil Unificado.
+<br>
+Para tener éxito, muchos métodos ágiles dependen
+del rigor y el cumplimiento de las normas. Aunque puede que no dependan de mucha documentación previa al desarrollo, sí dependen de procesos muy rigurosos.
+<br>
+Debido a que los enfoques ágiles han nacido para equipos pequeños y altamente colaborativos, funcionan muy bien en ese tipo de entornos.
+<br>
+<br>
+
+### Enfoques de desarrollo
+
+Los enfoques de desarrollo son una forma de organizar el desarrollo de software. <br>
+Algunos de ellos son: <br>
+- **SSADM** (Structured Systems Analysis and Design Methodology): El método SSADM implica la aplicación de una secuencia de tareas de análisis, documentación y diseño relacionados con las siguientes etapas: <br>
+
+**Etapa 0 - Estudio de viabilidad** <br>
+
+**Etapa 1 - Investigación de la situación actual** <br>
+
+**Etapa 2 - opciones del sistema de negocios** <br>
+
+**Etapa 3 - Requisitos de especificación** <br> 
+
+**Etapa 4 - opciones del sistema Técnicas** <br>
+
+**Etapa 5 - Diseño lógico** <br>
+
+**Etapa 6 - Diseño físico** <br>
+
+También las tres técnicas más importantes que se utilizan en SSADM son los siguientes:
+
+**Modelado de datos lógicos** <br>
+
+**Modelado de flujo de datos** <br>
+
+**Modelado Entidad Evento** <br>
+
+<br>
+
+- **DSDM** (Dynamic Systems Development Method): 
+El éxito de DSDM se debe a su convicción de que cualquier proyecto debe estar alineado con objetivos estratégicos claramente definidos y centrarse en la entrega temprana. El respaldo de esta filosofía con los ocho principios permite a los equipos mantener el enfoque y alcanzar los objetivos del proyecto. <br>
+Dichos principios son: <br>
+
+Centrarse en la necesidad comercial <br>
+Entregar a tiempo <br>
+Colaborar <br>
+Nunca comprometer la calidad <br>
+Construir incrementalmente a partir de cimientos firmes <br>
+Desarrollar iterativamente <br>
+Comunicarse de forma continua y clara <br>
+Demostrar control <br>
+
+- **Scrum**: es un enfoque de desarrollo que se basa en la metodología ágil. <br>
+Es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo y obtener el mejor resultado posible de proyectos. <br>
+Scrum es un marco de trabajo que define un conjunto de eventos, prácticas y roles,​ y que puede tomarse como conjunto base para definir el proceso de producción que usará un equipo de trabajo o dentro de un proyecto. <br>
+Los roles principales en Scrum son el Scrum Master, que procura facilitar la aplicación de Scrum y gestionar cambios, el Product Owner, que representa a los interesados, y el Team que ejecuta el desarrollo y demás elementos relacionados con él. <br>
+Durante cada sprint el equipo crea un incremento de software entregable. El conjunto de características que forma parte de cada sprint viene del Product Backlog, que es un conjunto de requisitos de alto nivel priorizados que definen el trabajo a realizar. Los elementos del Product Backlog que forman parte del sprint se determinan durante la reunión de Sprint Planning. Durante esta reunión, el Product Owner identifica los elementos del Product Backlog que quiere ver completados y los da a conocer al equipo. 
+
+- **RUP** (Rational Unified Process): es un enfoque de desarrollo que se basa en la metodología ágil. <br>
+- **Lean Software Development**: es un enfoque de desarrollo que se basa en la metodología ágil. <br>
+
 
