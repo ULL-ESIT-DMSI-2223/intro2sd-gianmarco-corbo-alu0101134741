@@ -23,11 +23,15 @@ title: Search
 
 <script type="text/javascript">
 
+  const searchArguments = {
+    dataSource: '{{site.baseurl}}assets/src/search.json',
+    searchField: '#search',
+    resultsList: '#list',
+    siteURL: '{{site.baseurl}}'
+  }
+
   const search = new JekyllSearch(
-    '{{site.baseurl}}assets/src/search.json',
-    '#search',
-    '#list',
-    '{{site.baseurl}}'
+    searchArguments
   );
   search.init(); 
   
