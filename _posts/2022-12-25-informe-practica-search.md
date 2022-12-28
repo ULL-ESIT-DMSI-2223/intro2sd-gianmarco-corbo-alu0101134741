@@ -53,3 +53,28 @@ En el formulario, creamos un evento que se encargará de llamar a la función in
 ## 5. Resumen capitulo 2 del libro Developing Information Systems, editado by James Cadle
 
 
+El ciclo de desarrollo de sistemas, es el proceso de creación o modificación de los sistemas, modelos y metodologías que la gente usa para desarrollar estos sistemas de software, ya sea hardware o software. <br>
+<br>
+Las fases que lo componen son: <br>
+- **Estudio de viabilidad**: se analiza la viabilidad del proyecto comprobando si el ROI es lo suficientemente bueno como para empezar el proyecto en sí. <br>
+- **Análisis de requisitos**: se analizan los requisitos del sistema, se identifican los problemas y se establecen los objetivos que habrá que cumplir. <br>
+- **Diseño**: se diseña el sistema considerando varias soluciones para cumplir los requisitos especificados. <br>
+- **Desarrollo**: se empieza a construir el sistema, se desarrolla el código y se crean de una a una las distintas funcionalidades. <br>
+- **Pruebas**: se prueban las funcionalidades del sistema para comprobar que cumplen los requisitos especificados. <br>
+- **Implantación**: se despliega el sistema en el entorno de producción. <br>
+
+Los elementos que componen el ciclo de desarrollo de sistemas son: <br>
+
+- **Contexto**: es el entorno en el que se desarrolla el proyecto, que es necesario comprender en su totalidad para saber como puede afectar al desarrollo de nuestro sistema. <br>
+- **Ciclo de vida**: es el proceso de desarrollo del sistema, que se divide en fases. Puede ser tanto lineal como iterativo. <br>
+- **Proceso**: es el conjunto de actividades que se llevan a cabo en cada fase del ciclo de vida para generar un determinado output. <br>
+-**Roles**: son los distintos papeles que desempeñan las personas que participan en el proyecto. <br>
+- **Entregables**: son los productos que se generan en cada fase del ciclo de vida. Pueden ser componentes software, hardware, documentación, diseños... <br>
+- **Técnicas**: son las herramientas que se utilizan para llevar a cabo las actividades del proceso, como por ejemplo el Desarrollo dirigido por pruebas (TDD) o los diagramas UML. Es necesario saber que tipo de herramientas son más adecuadas para la creación de nuestro sistema, para así no entorpecer su desarrollo. <br>
+<br>
+
+A lo largo de los años, se han ido desarrollando distintas metodologías para el desarrollo de sistemas, cada una con sus ventajas e inconvenientes. <br>
+Aún así no existe una metodología que sea la mejor para todos los proyectos, ya que cada proyecto es diferente y requiere una metodología diferente, por lo que seguir los pasos de un determinado CDS a raja tabla no es siempre la clave para un mejor proyecto. <br>
+Se podría decir que normalmente se asocian dos enfoques al ciclo de desarrollo de sistemas (lineal o evolutivo), como también 5 tipos de metodologías (en cascada, metodo-V, espiral, iterativo e incremental). <br>
+<br>
+
