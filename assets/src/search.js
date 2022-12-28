@@ -1,11 +1,11 @@
 class JekyllSearch {
-  constructor(searchParameters) {
-    this.dataSource = searchParameters.dataSource
-    this.searchField = document.querySelector(searchParameters.searchField)
-    this.resultsList = document.querySelector(searchParameters.resultsList)
-    this.siteURL = searchParameters.siteURL
+  constructor(dataSource, searchField, resultsList, siteURL) {
+    this.dataSource = dataSource
+    this.searchField = document.querySelector(searchField)
+    this.resultsList = document.querySelector(resultsList)
+    this.siteURL = siteURL
 
-    this.data = []
+    this.data = [];
   }
 
 
